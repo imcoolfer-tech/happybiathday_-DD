@@ -24,6 +24,10 @@ body {
   margin-top: 20px;
 }
 
+
+
+/* ============================================== Candle
+*/
 /* Fix the candle position to sit on top of the cake */
 .velas {
   background: #ffffff;
@@ -38,24 +42,6 @@ body {
   transform: translateY(-150px); /* Starting position for animation */
   animation: in 500ms 6s ease-out forwards;
   z-index: 10;
-}
-
-/* ============================================== Candle
-*/
-
-.velas {
-  background: #ffffff;
-  border-radius: 10px;
-  position: absolute;
-  top: 228px;
-  left: 50%;
-  margin-left: -2.4px;
-  margin-top: -8.33333333px;
-  width: 5px;
-  height: 35px;
-  transform: translateY(-300px);
-  backface-visibility: hidden;
-  animation: in 500ms 6s ease-out forwards;
 }
 .velas:after,
 .velas:before {
