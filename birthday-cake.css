@@ -13,10 +13,6 @@ body {
   background-attachment: fixed;
   background-size: 200% 200%;
   color: #fff;
-  animation: gradientMove 12s ease infinite;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
 }
 #cake {
   display: block;
