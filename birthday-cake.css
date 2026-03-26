@@ -7,12 +7,9 @@ body {
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
+
   background: linear-gradient(135deg, #8f55e5, #8c7fac, #88a974, #85d33b);
-  background-attachment: fixed;
-  background-size: 200% 200%;
-  color: #fff;
+  
 }
 #cake {
   display: block;
