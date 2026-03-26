@@ -7,9 +7,8 @@ body {
 }
 
 body {
-
-  background: linear-gradient(135deg, #8f55e5, #8c7fac, #88a974, #85d33b);
-  
+body {
+  background: #ee9ca7;
 }
 #cake {
   display: block;
