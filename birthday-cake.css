@@ -114,15 +114,17 @@ body {
 }
 
 body {
-  background-color: #ee9ca7; /* fallback base color */
-
-  background-image: url("genggar.jpg");
-  background-repeat: repeat; /* 🔥 makes it fill everywhere */
-}
-
-body {
   background-color: #ee9ca7;
-  background-image: url("genggar.jpg");
+
+  background-image: 
+    url("sticker.png"),
+    url("sticker.png");
+
+  background-size: 120px, 120px;
+
+  background-position: 
+    0 0,
+    60px 60px; /* offset layer */
+
   background-repeat: repeat;
-  background-size: 80px; /* 🔥 adjust size here */
 }
