@@ -12,8 +12,9 @@ body {
 
 #cake {
   display: block;
-  position: relative;
-  margin: -10em auto 0 auto;
+  width: 220px;     
+  height: auto;
+  margin: 0 auto;   /* center horizontally ONLY */
 }
 
 /* ============================================== Candle
