@@ -113,3 +113,21 @@ body {
   }
 }
 
+body {
+  background-color: #ee9ca7;
+
+  background-image: 
+    url("genggar.jpg"),
+    url("baizhu.jpg"),
+
+  background-repeat: no-repeat;
+
+  background-position:
+    10% 20%,
+    70% 30%,
+
+  background-size:
+    80px,
+    80px,
+
+}
